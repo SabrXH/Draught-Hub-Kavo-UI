@@ -140,18 +140,26 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(86, 126, 227)
     },
-    DraughtTheme = {
-        SchemeColor = Color3.fromRGB(17, 255, 13),
-        Background = Color3.fromRGB(20, 20, 20),
-        Header = Color3.fromRGB(48, 47, 47),
-        TextColor = Color3.fromRGB(255, 0, 0),
-        ElementColor = Color3.fromRGB(86, 126, 227)
-    }
+      Draught = {
+
+        SchemeColor = Color3.fromRGB(46, 43, 43),
+
+        Background = Color3.fromRGB(74, 74, 72),
+
+        Header = Color3.fromRGB(41, 40, 40),
+
+        TextColor = Color3.fromRGB(255, 0, 0),
+
+        ElementColor = Color3.fromRGB(128, 128, 128)
+
+    }
+
+
+}
 local oldTheme = ""
 
 local SettingsT = {
 
-}
 }
 
 local Name = "KavoConfig.JSON"
@@ -204,9 +212,9 @@ function Kavo.CreateLib(kavName, themeList)
     elseif themeList == "Deep" then
         themeList = themeStyles.Deep
     elseif themeList == "Sick" then
-        themeList = themeStyles.Sick  
-    elseif themeList == "DraughtTheme" then
-        themeList = themeStyles.DraughtTheme
+        themeList = themeStyles.Sick 
+    elseif themeList == "Draught" then
+        themeList = themeStyles.Draught  
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
