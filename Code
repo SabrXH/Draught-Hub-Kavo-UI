@@ -139,8 +139,7 @@ local themeStyles = {
         Header = Color3.fromRGB(41, 41, 40),
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(86, 126, 227)
-    }
-},
+    },
     Draught = {
         SchemeColor = Color3.fromRGB(17, 255, 13),
         Background = Color3.fromRGB(20, 20, 20),
@@ -148,7 +147,6 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255, 0, 0),
         ElementColor = Color3.fromRGB(86, 126, 227)
     }
-}
 
 local oldTheme = ""
 
